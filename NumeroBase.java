@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * Clase que representa objetos con dos atributos:
+ * Clase que representa objetos con cuatro atributos:
  *  - Un número
  *  - La base de dicho número
  *  - Un booleano que indica si el número y la base cumplen todas las restricciones del problema 
