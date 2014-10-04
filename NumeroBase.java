@@ -40,6 +40,8 @@ public class NumeroBase {
 
     /**
      * Método que comprueba que el número y la base cumplen todas las restricciones.
+     *
+     * @return true si el número y la base cumplen todas las restricciones del problema
      */
     private boolean comprobar() {
         boolean restriccionNumero = true, restriccionBase = true, restriccionCifras = true;
@@ -79,14 +81,20 @@ public class NumeroBase {
     /**
      *  Método que permite comprobar si una instancia de NumeroBase es válida.
      * 
-     * @return correcto
+     * @return true si el número y la base cumplen las restricciones del problema
      */    
     
     public boolean esValido(){
         return correcto;
     }
     
-    
+    /**
+     *  Método que realiza el cambio de base a base decimal del número en cuestión
+     *  empleando el algoritmo de Horner.
+     *
+     *  @return el número contenido, en base decimal
+     */
+
     public int cambiarBase (){
         int resultado = 0;
         String num = numeroString;
