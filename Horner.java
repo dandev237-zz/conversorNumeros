@@ -12,8 +12,6 @@ public class Horner {
         NumeroBase numero;
         String num;
         int base;
-        boolean fin = false;
-        
         
         System.out.println("Inserta un numero");
         num = input.nextLine();
