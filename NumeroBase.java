@@ -52,7 +52,7 @@ public class NumeroBase {
         //Fin comprobación restriccionNumero
         
         //Comprobación restriccionBase (La base debe ser mayor o igual a 2, y menor o igual a 37)
-        if(restriccionNumero && (base < 2 && base > 37))
+        if(base < 2 || base > 37)
             restriccionBase = false;
         //Fin comprobación restriccionBase
         
